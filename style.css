@@ -75,7 +75,9 @@ button, a{
 .nav-link:hover{
     color: var(--secondary-color) !important;
 }
-
+.common-section{
+    padding: 6rem;
+}
 
 
 
@@ -160,7 +162,7 @@ button, a{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 6rem 0;
+    padding: 7rem 0;
     overflow: hidden;
 
 }
@@ -175,5 +177,76 @@ button, a{
     /* left: 0; */
 
     border-radius: 50%;
-    width: 70%;
+    width: 60%;
+}
+
+/* carousel styling */
+
+
+.carousel .card{
+    background-color: #262626;
+    color: var(--bs-main-color);
+    transition: all 0.3s linear;
+}
+.carousel-inner .card p{
+    color: var(--bs-main-color);
+}
+
+.carousel-inner .card:hover{
+    background-color: var(--bs-main-color);
+    color: var(--bs-dark-color);
+    box-shadow: rgb(2, 255, 255) 0px 0px 9px 9px;
+
+}
+
+.carousel-inner .card:hover p{
+    color: var(--bs-dark-color);
+}
+
+.fa-star{
+    color: var(--bs-supporting-color);
+}
+
+
+/* .carousel-indicators [data-bs-target] {
+    height: .7rem;
+    width: .7rem;
+    padding: 1rem;
+    margin-top: 60%;
+    background-color: var(--secondary-color);
+   
+} */
+
+
+.carousel-control-next-icon {
+     margin-left: 30%;
+     padding: 1.5rem;
+
+}
+.carousel-control-prev-icon{
+    margin-right: 30%;
+    padding: 1.5rem;
+    
+
+}
+
+.project-section{
+    background-image: linear-gradient(rgba(22,22,22,0.9),rgba(22,22,22,0.9)),url(Gif/962921c223bd184ac63ddd13bbf2d0f3.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 7rem 0;
+    overflow: hidden;
+}
+
+/* Add this CSS to your existing styles or in a new style block */
+/* #carouselExampleIndicators .carousel-indicators {
+    margin-top: 20px; Adjust the value as needed to move indicators down */
+    /* padding: 12px;
+} */
+
+.card {
+    margin-bottom: 4rem; /* Adjust the value as needed to create space below cards */
+    margin-right: 0rem;
 }
