@@ -249,4 +249,5 @@ button, a{
 .card {
     margin-bottom: 4rem; /* Adjust the value as needed to create space below cards */
     margin-right: 0rem;
+    margin-top: 2rem;
 }
