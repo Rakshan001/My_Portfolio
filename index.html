@@ -11,6 +11,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- boxicon link -->
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- boxicon link -->
+
 </head>
 
 <body>
@@ -39,7 +44,7 @@
                         <a class="nav-link text-capitalize" href="#">contact</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
+                <!-- <form class="d-flex" role="search"> -->
                 </form>
             </div>
         </div>
@@ -91,7 +96,7 @@
             <hr class="w-25 mx-auto">
         </div>
 
-        <div class="container mt-9">
+        <div class="container mt-5">
             <div class="row">
                 <div class="col-12 col-lg-4 col-md-12">
                     <div class="text-center card-box rounded-2 p-5">
@@ -177,7 +182,7 @@
 
 
     <!-- Skills sets start -->
-    <section class="common-section bussiness-section" id="online section">
+    <section class="common-section bussiness-section " id="online section">
         <div class="container text-center common-title fw-bold">
             <h1 class="common-heading text-capitalize">Skills</h1>
             <hr class="w-25 mx-auto">
@@ -249,7 +254,7 @@
 
 
     <!-- Project section start -->
-    <section class="common-section mb-4 pt-4 bg-color project-section">
+    <section class="common-section mb-0 pt-5 bg-color project-section">
         <div class="container text-center common-title fw-bold mb-3">
             <h1 class="common-heading text-capitalize fw-bold text-white">My Projects</h1>
             <hr class="w-25 mx-auto">
@@ -534,12 +539,118 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
+ 
         </div>
+    </div>
+    <!-- <div class="custom-shape-divider-bottom-1702312925 mt-5">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div> -->
     </section>
 
 
 
     <!-- Project section end -->
+
+
+    <!-- Contact section start -->
+    <section class="common-section contact-section text-black mb-0 pt-7 bg-color">
+        <div class="custom-shape-divider-top-1702307545">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+    </svg>
+</div>
+        <div class="container text-center common-title fw-bold mb-3">
+            <h1 class="common-heading text-capitalize fw-bold text-white">Contact Us</h1>
+            <hr class="w-25 mx-auto">
+        </div>   
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center align-item-center  contact-details">
+                    <img src="Gif/contact_usform.gif" alt="link" class="img-fluid contactformimg" width="300px">
+
+                    <h1 class="text-capitalize fw-bolder text-white">Rakshan Shetty</h1>
+                    <p class="mt-3 mb-2 para-width text-light-grey">Email:rakshanshetty2003@gmail.com</p>
+                    <p class="mb-7 pb-5 para-width text-light-grey">Phone:+91 9632612163</p>
+
+                    
+                    <div class="text-center w-100 text-md-start">
+                        <button class="text-capitalize btn btn-primary px-5 py-2 " data-bs-toggle="tooltip"
+                            data-bs-title="More About Me">My CV</button>
+                    </div>
+                </div>
+                <!-- contact form -->
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="text-center text-lg-end">
+                        <!-- form here -->
+                        <div class="customform-container">
+                            <form onsubmit="sendEmail(); reset(); return false;" >
+                                <h3>Contact Us</h3>
+                                <input type="text" id="name" placeholder="Your Name" required>
+                                <input type="email" id="email" placeholder="example@gmail.com" required>
+                                <input type="tel" id="phone" placeholder="Phone No." required>
+                                <textarea id="message" rows="4" placeholder="Enter message Here" required></textarea>
+                                <div class="connect">
+                                    <a href="https://instagram.com/__anonymous1010__?igshid=OGQ5ZDc2ODk2ZA=="><i class='bx bxl-instagram-alt'></i></a>
+                                    <a href="https://instagram.com/__anonymous1010__?igshid=OGQ5ZDc2ODk2ZA=="><i class='bx bxl-facebook-circle'></i></a>
+                                    <a href="https://instagram.com/__anonymous1010__?igshid=OGQ5ZDc2ODk2ZA=="><i class='bx bxl-linkedin-square' ></i></a>
+                                
+                                </div>
+                                <button type="submit">Send</button>
+                            </form>
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+    <!-- Contact section start -->
+<!-- contact form script -->
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script><!-- Sweet Alert -->
+<script>
+    function sendEmail() {
+        Email.send({
+            SecureToken: "0d7f93aa-24ba-49e5-a554-d8e2190d585f",
+           
+            To: 'anonymous10unknown10@gmail.com',
+            From: "unknownimmortal101@gmail.com",
+            Port: 2525, // Use the correct port for your email service provider
+            EnableSsl: true, // Enable SSL/TLS
+
+            Subject: "My Portfolio Enquery",
+            Body: "Name: " + document.getElementById("name").value +
+                "<br> Email: " + document.getElementById("email").value +
+                "<br> Phone No: " + document.getElementById("phone").value +
+                "<br> Message: " + document.getElementById("message").value
+        }).then(
+            message =>{
+                if(message='OK'){
+                    swal("Successfull", "Your Message sent successfully", "success");
+                }
+                else{
+                    swal("Something Wrong", "Your Message Not sent", "error");
+
+                }
+            } 
+
+        );
+    }
+</script>
+<!-- contact form script ends -->
+
+
+
 
 
 
